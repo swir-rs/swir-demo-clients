@@ -11,9 +11,9 @@ client_config:
 
 tracing:
   open_telemetry:
-    collector_address: swir-example-logger
-    collector_port: 6831
-    service_name: pubsub-store-example
+    collector_address: otel-agent
+    collector_port: 4317
+    service_name: service1
     
 #client_executable: "client.jar"
 pubsub:
